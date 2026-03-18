@@ -46,7 +46,7 @@ Scotty3D is a high-performance C++17 software renderer and geometry processing s
 * Linear Blend Skinning (LBS): Computing vertex positions based on weighted joint transforms.
 * Inverse Kinematics (IK): Implemented Jacobian-based or FABRIK solvers to control character limbs via end-effectors.
 * Particle Simulation: Mass-spring systems for cloth or basic physical interactions.
-![Module 4 example](animation.png)
+![Module 4 example](animation.mp4)
 *Animation with models moving by linear blend skinning and inverse kinematics*
 
 ---
