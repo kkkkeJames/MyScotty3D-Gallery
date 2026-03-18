@@ -10,6 +10,10 @@ Scotty3D is a high-performance C++17 software renderer and geometry processing s
 ### Technical Features:
 * Perspective-Correct Interpolation: Solved the attribute mapping problem under non-linear projection.
 * Anti-Aliasing: Integrated Supersampling (SSAA) and Alpha Blending for high-quality edge rendering.
+![Module 1 example](task5.png)
+*The rightmost box is Perspective-Correct Interpolation*
+![Module 1 example 2](rasterizeRender.png)
+*Rasterized image example*
 
 ---
 
@@ -30,6 +34,10 @@ Scotty3D is a high-performance C++17 software renderer and geometry processing s
 ### Materials (BSDF): 
 * Microfacet Models: Implemented the Cook-Torrance model for realistic metallic and dielectric surfaces.
 * Refraction & Reflection: Handled total internal reflection (Fresnel equations) for realistic glass materials.
+![Module 3 example](CornellBox.png)
+*Cornell Box based on BSDF*
+![Module 3 example 2](raytraceRender.png)
+*Upgrade rasterized image, with glassy material, global illumination and image-based environmental light*
 
 ---
 
@@ -38,6 +46,8 @@ Scotty3D is a high-performance C++17 software renderer and geometry processing s
 * Linear Blend Skinning (LBS): Computing vertex positions based on weighted joint transforms.
 * Inverse Kinematics (IK): Implemented Jacobian-based or FABRIK solvers to control character limbs via end-effectors.
 * Particle Simulation: Mass-spring systems for cloth or basic physical interactions.
+![Module 4 example](animation.png)
+*Animation with models moving by linear blend skinning and inverse kinematics*
 
 ---
 
